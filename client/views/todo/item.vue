@@ -71,7 +71,7 @@
  <template>
     <div class="todo-item" v-bind:class="{completed: todo.completed}">
         <input type="checkbox" class="toggle" v-on:click="completeTodo">
-        <label>{{todo.content}}jhkjjkj</label>
+        <label>{{todo.content}}wumingshi</label>
         <button class="destory" @click="deleteTodo"></button>
         <!-- <button class="destory" v-on:click="A"></button> -->
          <!-- <button class="destory"></button> -->
